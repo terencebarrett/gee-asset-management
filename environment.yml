@@ -1,0 +1,12 @@
+name: gee_assets
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - earthengine-api=0.1.320
+  - jupyter=1.0
+  - pip=22.2
+  - pip:
+      - geeadd==0.5.5  # Version 0.5.5 is needed, and is not available yet on conda-forge
+
